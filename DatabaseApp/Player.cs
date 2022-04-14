@@ -103,7 +103,7 @@ namespace DatabaseApp
             {
                 return String.Format("| #{0,-3}  {1}{2} |     ERA: {3,-5:F2}    |                         |", Number, Name, Pos, ERA);
             }
-            else if (Pos.Trim() == "RP")
+            else if (Pos.Trim() == "CL")
             {
                 return String.Format("| #{0,-3}  {1}{2} |     ERA: {3,-5:F2}    |                         |", Number, Name, Pos, ERA);
             }
